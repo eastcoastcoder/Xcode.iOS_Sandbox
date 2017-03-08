@@ -13,6 +13,7 @@
 		F31C3D181D7D25D0006337B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31C3D171D7D25D0006337B6 /* Assets.xcassets */; };
 		F31C3D1B1D7D25D0006337B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31C3D191D7D25D0006337B6 /* LaunchScreen.storyboard */; };
 		F31C3D261D7D25D0006337B6 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C3D251D7D25D0006337B6 /* FoodTrackerTests.swift */; };
+		F371F8FF1E5E81C100235C82 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F371F8FE1E5E81C100235C82 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F31C3D211D7D25D0006337B6 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31C3D251D7D25D0006337B6 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		F31C3D271D7D25D0006337B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F371F8FE1E5E81C100235C82 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				F31C3D101D7D25D0006337B6 /* AppDelegate.swift */,
 				F31C3D121D7D25D0006337B6 /* ViewController.swift */,
+				F371F8FE1E5E81C100235C82 /* RatingControl.swift */,
 				F31C3D141D7D25D0006337B6 /* Main.storyboard */,
 				F31C3D171D7D25D0006337B6 /* Assets.xcassets */,
 				F31C3D191D7D25D0006337B6 /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F31C3D131D7D25D0006337B6 /* ViewController.swift in Sources */,
+				F371F8FF1E5E81C100235C82 /* RatingControl.swift in Sources */,
 				F31C3D111D7D25D0006337B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ethan Richardson (ZJHF4X5963)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2S3D8J8M3T;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
